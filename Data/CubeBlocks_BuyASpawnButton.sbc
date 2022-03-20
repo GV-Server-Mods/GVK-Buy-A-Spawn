@@ -21,9 +21,9 @@
 						<SubtypeId>Scrap</SubtypeId>
 					</DeconstructId>
 				</Component>
-				<Component Subtype="InteriorPlate" Count="5"/>
+				<Component Subtype="Computer" Count="1"/>
 			</Components>
-			<CriticalComponent Subtype="GVK_Unobtanium" Index="0"/>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MountPoints>
 				<MountPoint Side="Back" StartX="0.4" StartY="0.25" EndX="0.6" EndY="0.5"/>
 			</MountPoints>
