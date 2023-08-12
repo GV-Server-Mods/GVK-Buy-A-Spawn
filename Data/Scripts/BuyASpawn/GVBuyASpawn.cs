@@ -95,7 +95,7 @@ namespace Klime.BuyASpawn
                         Vector3D spawn_pos = Vector3D.Zero;
                         if (ParseVector3DFromGPS(gps_pos, out spawn_pos))
                         {
-                            var dist = 50;
+                            var dist = 70;
 							List<MyEntity> ents = new List<MyEntity>();
 							spawn_pos += Vector3D.Right * (rand.Next(2*dist)-dist);
 							spawn_pos += Vector3D.Forward * (rand.Next(2*dist)-dist);
