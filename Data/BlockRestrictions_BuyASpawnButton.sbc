@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<EntityComponents>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>BlockRestrictions_BuyASpawnButton</SubtypeId>
+			</Id>
+			<Description>
+			[?xml version="1.0" encoding="utf-16"?]
+			[DefaultSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"]
+				[DefaultSetting]
+					[Type]MyObjectBuilder_ButtonPanel/BuyASpawnButton[/Type]
+					[PlayerMaxCount]0[/PlayerMaxCount]
+					[GridMaxCount]0[/GridMaxCount]
+					[FactionMaxCount]0[/FactionMaxCount]
+					[AllowedForNPC]true[/AllowedForNPC]
+					[AllowedForPlayer]false[/AllowedForPlayer]
+					[AllowedForUnowned]true[/AllowedForUnowned]
+					[AllowedForNPCStaticOnly]false[/AllowedForNPCStaticOnly]
+					[AllowedForPlayerStaticOnly]false[/AllowedForPlayerStaticOnly]
+					[AllowedForUnownedStaticOnly]false[/AllowedForUnownedStaticOnly]
+				[/DefaultSetting]
+			[/DefaultSettings]
+			</Description>
+		</EntityComponent>
+	</EntityComponents>
+</Definitions>
+
